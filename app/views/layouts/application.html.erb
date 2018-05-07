@@ -3,17 +3,12 @@
   <head>
     <title><%= yield(:title) %> | Ruby on Rails Tutorial Sample App</title>
     <%= csrf_meta_tags %>
-    <%= stylesheet_link_tag    'application', media: 'all',
-                               'data-turbolinks-track': 'reload' %>
-    <%= javascript_include_tag 'application',
-                               'data-turbolinks-track': 'reload' %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
-<<<<<<< HEAD
   <body style ="padding-top: 70px; text-align: center;">
-=======
-  <body style="padding-top: 70px; text-align: center;">
->>>>>>> static-pages
     <%= yield %>
   </body>
 </html>
